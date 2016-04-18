@@ -3,7 +3,7 @@
     "id": "build-tasks",
     "name": "Azure Swap Task",
     "version": "0.0.1",
-    "publisher": "birchman",
+    "publisher": "miguelcruz",
     "targets": [
         {
             "id": "Microsoft.VisualStudio.Services"
@@ -13,9 +13,6 @@
     "categories": [
         "Build and release"
     ],
-    "icons": {
-        "default": "extension-icon.png"        
-    },
     "files": [
         {
             "path": "AzureWebPowerShellSwap"
