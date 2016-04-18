@@ -33,7 +33,10 @@
       "type": "pickList",
       "label": "Web App Name",
       "defaultValue": "",
-      "required": true
+      "required": true,
+	  "properties": {
+        "EditableOptions": "True"
+      }
     },
     {
       "name": "WebSiteLocation",
