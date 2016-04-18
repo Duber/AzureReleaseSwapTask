@@ -1,0 +1,36 @@
+{
+    "manifestVersion": 1,
+    "id": "build-tasks",
+    "name": "Azure Swap Task",
+    "version": "0.0.1",
+    "publisher": "birchman",
+    "targets": [
+        {
+            "id": "Microsoft.VisualStudio.Services"
+        }
+    ],    
+    "description": "Task for swapping azure web app slot.",
+    "categories": [
+        "Build and release"
+    ],
+    "icons": {
+        "default": "extension-icon.png"        
+    },
+    "files": [
+        {
+            "path": "AzureWebPowerShellSwap"
+        }
+    ],
+    "contributions": [
+        {
+            "id": "custom-build-task-1",
+            "type": "ms.vss-distributed-task.task",
+            "targets": [
+                "ms.vss-distributed-task.tasks"
+            ],
+            "properties": {
+                "name": "AzureWebPowerShellSwap"
+            }
+        }
+    ]
+}

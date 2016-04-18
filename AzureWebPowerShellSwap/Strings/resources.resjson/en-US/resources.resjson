@@ -1,0 +1,19 @@
+// *******************************************************
+// GENERATED FILE - DO NOT EDIT DIRECTLY
+// *******************************************************
+{
+  "loc.friendlyName": "Azure Web App Deployment",
+  "loc.helpMarkDown": "[More Information](http://go.microsoft.com/fwlink/?LinkID=613750)",
+  "loc.description": "Publish a Visual Studio Web project to a Microsoft Azure Web App using Web Deploy",
+  "loc.instanceNameFormat": "Azure Deployment: $(WebSiteName)",
+  "loc.input.label.ConnectedServiceName": "Azure Subscription",
+  "loc.input.help.ConnectedServiceName": "Azure subscription to target for deployment.",
+  "loc.input.label.WebSiteName": "Web App Name",
+  "loc.input.label.WebSiteLocation": "Web App Location",
+  "loc.input.help.WebSiteLocation": "Select a region for deployment.Possible options are **East US**, **East US 2**, **Central US**, **South Central US**, **West US**, **North Europe**, **West Europe** and others.",
+  "loc.input.label.Slot1": "Origin Slot",
+  "loc.input.help.Slot1": "Origin Slot",
+  "loc.input.label.Slot2": "Destination Slot",
+  "loc.input.help.Slot2": "Destination Slot",
+  "loc.input.label.AdditionalArguments": "Additional Arguments"
+}
