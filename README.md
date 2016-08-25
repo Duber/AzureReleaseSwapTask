@@ -1,9 +1,11 @@
-# AzureReleaseSwapTask
+# Web App Swap Task
 
-This is an extension for Visual Studio Online.
+This is an extension for Visual Studio Team Services.
 
-It adds the following tasks:
+It adds a task that allows you to make swap between deployment slots of a web app.
 
-	* Swap task for Visual Studio Team Services task based systems (builds, release management). This task allows you to make swap between deployment slots of a web app service.
-	
-Credits for task implementation goes to @alejandromelis: https://github.com/alejandromelis/vso-agent-tasks
+![Swap Task Preview](images/screen_task.jpg)
+![Swap Task Detail Preview](images/screen_task_detail.jpg)
+
+
+Credits to [Alejandro Melis](https://github.com/alejandromelis) and [Miguel Cruz](http://www.miguelcruz.net)

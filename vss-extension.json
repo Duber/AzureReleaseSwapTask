@@ -1,26 +1,37 @@
 {
     "manifestVersion": 1,
     "id": "build-tasks",
-    "name": "Azure Swap Task",
-    "version": "1.0.0",
+    "name": "Web App Swap Task",
+    "version": "1.1.0",
     "publisher": "miguelcruz",
     "targets": [
         {
             "id": "Microsoft.VisualStudio.Services"
         }
-    ],    
-    "description": "Task for swapping azure web app slot.",
+    ],
+    "icons": {
+        "default": "images/icon.jpg"
+    },
+    "description": "Task for performing swap operation between slots of an azure web app.",
     "categories": [
         "Build and release"
     ],
     "files": [
         {
             "path": "AzureWebPowerShellSwap"
+        },
+        {
+            "path": "images/screen_task.jpg",
+            "addressable": true
+        },
+        {
+            "path": "images/screen_task_detail.jpg",
+            "addressable": true
         }
     ],
     "contributions": [
         {
-            "id": "custom-build-task-1",
+            "id": "swap-task",
             "type": "ms.vss-distributed-task.task",
             "targets": [
                 "ms.vss-distributed-task.tasks"
@@ -29,5 +40,21 @@
                 "name": "AzureWebPowerShellSwap"
             }
         }
-    ]
+    ],
+    "screenshots ": [
+        {
+            "path": "images/screen1.png"
+        }
+    ],
+    "content": {
+        "details": {
+            "path": "README.md"
+        }
+    },
+    "links": {
+        "support": {
+                "uri": "https://github.com/Duber/AzureReleaseSwapTask"
+            }
+    },
+    "public": true
 }
