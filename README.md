@@ -12,6 +12,7 @@ It adds a task that allows you to make swap between deployment slots of a web ap
 
 ## Disclaimer
 This task works only with Classic Azure Endpoints. For ARM Endpoints use the official task developed by Microsoft (which only works with ARM):
+
 ![MS ARM Task](https://cloud.githubusercontent.com/assets/999284/20539425/387c6020-b0f5-11e6-981a-f78d1143d5a6.png)
 
 ## Source
